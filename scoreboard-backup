@@ -1,0 +1,11 @@
+<p>1</p><input id="input_1" type="text"><br>
+        <p>2</p><input id="input_2" type="text"><br>
+        <p>3</p><input id="input_3" type="text"><br>
+        <p>4</p><input id="input_4" type="text"><br>
+        <p>5</p><input id="input_5" type="text"><br>
+        <p>6</p><input id="input_6" type="text"><br>
+        <p>Stair</p><input id="input_7" type="text"><br>
+        <p>Full House</p><input id="input_8" type="text"><br>
+        <p>Poker</p><input id="input_9" type="text"><br>
+        <p>Yahtzee</p><input id="input_10" type="text"><br>
+        <p>Double Yahtzee</p><input id="input_11" type="text"><br>

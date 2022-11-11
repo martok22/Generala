@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="generala.js"></script>
+</head>
+<body class="default">
+    <div>
+        <p id="p_turn" class="default">Turn: </label><span id="turn_num"></span><label id="lbl_throwed"> Throwed: </label><span id="throw_num"></span></p>
+        <div id="div_1" class="droptarget default-div"></div>
+        <div class="default">
+            <p id="p_toSeparate" class="default">To separate:</p>
+        </div>
+        <div id="div_2" class="droptarget default-div"></div>
+        <button id="but_start">Start Game</button>
+        <button id="but_shuffle" onclick="shuffle()">Shuffle</button>
+        <button id="but_nextTurn" onclick="nextTurn()">Next Turn</button>
+        <button id="but_help" onclick="displayHelp()">Help</button>
+        <button id="but_config" onclick="displayConfig()">Configuration</button>
+        <audio id="shuffleSound" src="dice-cup-shuffle.mp3"></audio>
+        <audio id="rollSound" src="roll-dice.mp3"></audio>
+    </div>    
+    <div id="div_3" class="default">
+        <table id="sb_table">
+            <thead>
+                <tr>
+                    <th colspan="2">Scoreboard</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tr_1">
+                    <td class="left_column">1
+                    </td>
+                    <td id="td_1"><input id="input_1" type="text">
+                    </td>
+                    <td><button id="but_1">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_2">
+                    <td class="left_column">2
+                    </td>
+                    <td id="td_2"><input id="input_2" type="text">
+                    </td>
+                    <td><button id="but_2">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_3">
+                    <td class="left_column">3
+                    </td>
+                    <td id="td_3"><input id="input_3" type="text">
+                    </td>
+                    <td><button id="but_3">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_4">
+                    <td class="left_column">4
+                    </td>
+                    <td id="td_4"><input id="input_4" type="text">
+                    </td>
+                    <td><button id="but_4">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_5">
+                    <td class="left_column">5
+                    </td>
+                    <td id="td_5"><input id="input_5" type="text">
+                    </td>
+                    <td><button id="but_5">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_6">
+                    <td class="left_column">6
+                    </td>
+                    <td id="td_6"><input id="input_6" type="text">
+                    </td>
+                    <td><button id="but_6">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_7">
+                    <td class="left_column">Stair
+                    </td>
+                    <td id="td_7"><input id="input_7" type="text">
+                    </td>
+                    <td><button id="but_7">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_8">
+                    <td class="left_column">Full House
+                    </td>
+                    <td id="td_8"><input id="input_8" type="text">
+                    </td>
+                    <td><button id="but_8">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_9">
+                    <td class="left_column">Poker
+                    </td>
+                    <td id="td_9"><input id="input_9" type="text">
+                    </td>
+                    <td><button id="but_9">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_10">
+                    <td class="left_column">Yahtzee
+                    </td>
+                    <td id="td_10"><input id="input_10" type="text">
+                    </td>
+                    <td><button id="but_10">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_11">
+                    <td class="left_column">Double Yahtzee
+                    </td>
+                    <td id="td_11"><input id="input_11" type="text">
+                    </td>
+                    <td><button id="but_11">OK</button>
+                    </td>
+                </tr>
+                <tr id="tr_12">
+                    <td class="left_column">Total </td>
+                    <td id="td_12"></td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+    </div>
+    
+
+</body>
+</html>

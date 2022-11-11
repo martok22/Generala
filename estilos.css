@@ -1,0 +1,224 @@
+
+.droptarget {
+    /* float: left;  */
+    width: 700px; 
+    height: 140px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 10px;
+    border: 1px solid black;
+    display: block;
+  }
+
+  #but_start {
+    /* float:left; */
+    /* display: block; */
+    margin-top: 50px;
+    margin-left: 240px;
+  }
+
+  #div_3{
+    position: absolute;
+    /* float: right; */
+    top: 75px;
+    left: 790px;
+    width: 450px;
+    height: 500px;
+    /* border: 1px solid black; */
+    overflow: auto;
+  }
+
+  p {
+    padding: 10px 10px 0px 10px;
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    text-align: left;
+    /* display: inline-block; */
+  }
+
+  .hidden{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    /* transition: width 1s; */
+  }
+
+  .visible-help {
+    visibility: visible;
+    opacity: 1.0;
+    transition: opacity 0.5s;
+    /* transition: width 1s; */
+  }
+
+  .visible-config {
+    visibility: visible;
+    opacity: 1.0;
+
+    transition: opacity 0.5s;
+  }
+
+  /* label {
+    display: block;
+    padding-left: 10px;
+    /* float: left;
+  } */
+
+  #alert{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 550px;
+    top:150px; 
+    border: 1px solid black;
+    z-index: 9;
+    background-color: white;
+  }
+
+ #lbl_1{
+  display: block;
+  align-items: center;
+}
+
+  input[type="text"] {
+    width: 30px;
+    margin-left: 10px;
+    display: block;
+  }
+
+  table, td {
+    /* border: 1px solid #333; */
+    margin:auto;
+  }
+
+  td{
+    padding: 10px 10px;
+  }
+
+  .left_column{
+    text-align: right;
+  }
+
+  td button {
+    /* pointer-events: none; */
+    background-color: grey;
+    opacity: 0.5;
+  }
+
+  .selected{
+    background-color: darkblue;
+    color: white; 
+  }
+
+  #lbl_turn, #lbl_throwed {
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  th {
+    text-align: right;
+  }
+
+  td label {
+    font-size: 15px;
+    text-align: right;
+  }
+
+  td p {
+    text-align: right;
+  }
+
+  #div_config {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 450px;
+    top: 200px;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 0.5s;
+    /* transition: width 1s; */
+  }
+
+  #but_config_close{
+    margin-left: 377px;
+    border: 1px solid black;
+  }
+
+  .lbl_soundDice {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  fieldset{
+    border: none;
+  }
+
+  [type="radio"] {
+    /* display: block; */
+  }
+
+  #config_table_tbody > tr {
+    border: 1px solid black;
+  }
+
+  .default{
+    /* background-color:white; */
+    /* color: black;  */
+  }
+
+  .dark {
+    background-color:black;
+    color: white;
+  }
+  
+  .dark-div {
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  #div_help{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 350px;
+    top: 150px;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  #but_help_close {
+    margin-left: 475px;
+  }
+
+  span {
+    padding-left: 10px;
+  }
+
+  #p_turn {
+    margin-top: 50px;
+    /* display: inline; */
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #p_toSeparate {
+    /* display: inline; */
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  body{
+    /* display:inline-flex; */
+  }
+
+  tr td {
+    text-align: center;
+    /* padding-right: 5px; */
+    /* padding-left: 25px; */
+    margin-left: 15px;
+  }
